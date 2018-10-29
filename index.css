@@ -1,23 +1,68 @@
+body {
+	background-color: #4F4F4F; 
+	margin: 0;
+	font-family: Oxygen;
+}
+
 .card {
 	background-color: #333333;
 	margin: 0;
+	height: 200px;
+	width: 100%;
+	position: relative;
+}
+
+.cardBlock {
+	margin-left: 50px;
+	margin-top: 50px;
 }
 
 .logo {
-	color: #4F4F4F;
+	height: 70px; 
+	width: 200px;
+	float: left;
+	margin-left: 15px;
+	margin-top: 15px;	
 }
 
-body {
-	background-color: #4F4F4F; 
-
+.formPesquisa {
+	float: left;
 }
 
+.formLogin {
+	float: right;
+	margin-left: 0px;
+}
+
+.formFormat {
+	background-color: white;
+	border-radius: 5px;
+	height: 50px;
+	font-size: 20px;
+}
+
+.formFormatPequisa {
+	width: 45em;
+	color: orange;
+}
+
+.formFormatLogin {
+	width: 10em;
+	color: teal; 
+}
 input[type=button]{
-	background-color: teal;
 	color: white;
     padding: 14px 24px;
     text-decoration: none;
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 5px;
+}
+
+.btnPesquisar {
+	background-color: orange;
+}
+
+.btnLogin {
+	background-color: teal;
 }
