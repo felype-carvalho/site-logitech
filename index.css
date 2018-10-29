@@ -1,0 +1,23 @@
+.card {
+	background-color: #333333;
+	margin: 0;
+}
+
+.logo {
+	color: #4F4F4F;
+}
+
+body {
+	background-color: #4F4F4F; 
+
+}
+
+input[type=button]{
+	background-color: teal;
+	color: white;
+    padding: 14px 24px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
