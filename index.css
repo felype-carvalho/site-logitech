@@ -1,38 +1,45 @@
 body {
 	background-color: #4F4F4F; 
 	margin: 0;
-	font-family: Oxygen;
 }
 
 .card {
 	background-color: #333333;
 	margin: 0;
-	height: 200px;
+	height: 13em;
 	width: 100%;
 	position: relative;
 }
 
-.cardBlock {
-	margin-left: 50px;
-	margin-top: 50px;
+/*Divisões do Cabeçario*/
+.divLogo {
+	float: left;
+	margin: 50px;
+	margin-right: 25px;
+}
+
+.divPesquisa {
+	float: left;
+	margin: 50px;
+}
+
+.divLogin {
+	float: right;
+	margin: 50px;
+}
+
+.divNav {
+	float: center;
 }
 
 .logo {
-	height: 70px; 
-	width: 200px;
-	float: left;
-	margin-left: 15px;
-	margin-top: 15px;	
+	height: 65px;
+	width: 190px;
 }
 
+/*Formulários de texto*/
 .formPesquisa {
 	float: left;
-}
-
-.formLogin {
-	float: right;
-	margin-left: 0px;
-	margin-right: 20px
 }
 
 .formFormat {
@@ -41,35 +48,56 @@ body {
 	height: 40px;
 	font-size: 20px;
 	border: none;
-    padding-top: 10px;
+    padding-top: 7.5px;
     padding-left: 10px;
+    margin-right: 0px;
 }
 
 .formFormatPequisa {
-	width: 40em;
+	width: 750px;
 	color: #ff6600;
 	border-bottom: 5px solid #ff6600;
 }
 
 .formFormatLogin {
-	width: 8em;
+	width: 150px;
 	color: teal;
 	border-bottom: 5px solid teal; 
 }
-input[type=button]{
+
+/* Botões */
+.btn {
 	color: white;
-    padding: 14px 24px;
     text-decoration: none;
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 5px;
+    border:none;
 }
 
 .btnPesquisar {
+	width: 60px;
+	height: 55px;
+	border-image-width: 10px;
+	border-radius: 5px;
+	font-size: 25px;
 	background-color: #ff6600;
+	margin-left: 0px;
 
 }
 
 .btnLogin {
+	height: 55px;
+	width: 100px;
+	font-size: 20px;
+	padding-left: 1px;
+	padding-right: 1px;
 	background-color: teal;
+	margin-left: 0px;
 }
+
+/* Menu de Navegação */
+
+/*.nav {
+	float: left;
+}*/
