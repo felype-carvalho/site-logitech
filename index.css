@@ -1,66 +1,78 @@
 body {
 	background-color: #4F4F4F; 
 	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+a {
+	text-decoration: none;
 }
 
 .card {
 	background-color: #333333;
 	margin: 0;
-	height: 13em;
+	height: 8rem;
 	width: 100%;
 	position: relative;
+}
+
+.card2 {
+	height: 6rem;
 }
 
 /*Divisões do Cabeçario*/
 .divLogo {
 	float: left;
-	margin: 50px;
-	margin-right: 25px;
+	margin: 3rem;
+	margin-right: 1.5rem;
+	margin-bottom: 0.5rem;
 }
 
 .divPesquisa {
 	float: left;
-	margin: 50px;
+	margin: 3rem;
+	margin-bottom: 0.5rem;
 }
 
 .divLogin {
 	float: right;
-	margin: 50px;
+	margin: 3rem;
+	margin-bottom: 0.5rem;
 }
 
 .divNav {
-	float: center;
+	float: left;
+	margin-left: 37.5rem;
 }
+
+/* Logo */
 
 .logo {
-	height: 65px;
-	width: 190px;
+	height: 4rem;
+	width: 12rem;
 }
 
-/*Formulários de texto*/
-.formPesquisa {
-	float: left;
-}
+/* Formatação de formulários de texto*/
 
 .formFormat {
 	background-color: #e6e6e6;
 	border-radius: 5px;
-	height: 40px;
+	height: 2.5rem;
 	font-size: 20px;
 	border: none;
-    padding-top: 7.5px;
-    padding-left: 10px;
+    padding-top: 0.4375rem;
+    padding-left: 0.625rem;
     margin-right: 0px;
 }
 
 .formFormatPequisa {
-	width: 750px;
+	width: 43.75rem;
 	color: #ff6600;
 	border-bottom: 5px solid #ff6600;
 }
 
 .formFormatLogin {
-	width: 150px;
+	width: 9.375rem;
 	color: teal;
 	border-bottom: 5px solid teal; 
 }
@@ -69,16 +81,16 @@ body {
 .btn {
 	color: white;
     text-decoration: none;
-    margin: 4px 2px;
+    margin: 0.25rem 0.125rem;
     cursor: pointer;
     border-radius: 5px;
-    border:none;
+    border: none;
 }
 
 .btnPesquisar {
-	width: 60px;
-	height: 55px;
-	border-image-width: 10px;
+	width: 3.75rem;
+	height: 3.438rem;
+	border-image-width: 0.625rem;
 	border-radius: 5px;
 	font-size: 25px;
 	background-color: #ff6600;
@@ -87,17 +99,112 @@ body {
 }
 
 .btnLogin {
-	height: 55px;
-	width: 100px;
+	height: 3.438rem;
+	width: 6.25rem;
 	font-size: 20px;
-	padding-left: 1px;
-	padding-right: 1px;
+	padding-left: 0.0625rem;
+	padding-right: 0.0625rem;
 	background-color: teal;
 	margin-left: 0px;
 }
 
 /* Menu de Navegação */
 
-/*.nav {
+.nav {
 	float: left;
-}*/
+	padding: 0.3125rem;
+	margin: 1rem;
+	border: none;
+	border-radius: 5px;
+}
+
+.navProduto {
+	border-bottom: 0.3125rem solid #00a1e1;
+}
+
+.navSolucao {
+	border-bottom: 0.3125rem solid #00cc00;
+}
+
+.navSuporte {
+ 	border-bottom: 0.3125rem solid #e6e600;
+}
+
+/* Formatação dos links do Menu de Navegação */
+
+.linkFormat {
+	font-size: 2rem;
+}
+
+.linkFormatProduto {
+	color: #00a1e1;
+}
+
+.linkFormatSolucao {
+	color: #00cc00;
+}
+
+.linkFormatSuporte {
+	color: #e6e600;
+}
+
+/* Slider */
+
+.slider {
+    display: block;
+    height: 500px;
+    width: 800px;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+}
+
+.slider li {
+    list-style: none;
+    position: absolute;
+}
+
+.slider img {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+    opacity: 0;
+	visibility: hidden;
+}
+
+.slider input {
+    display: none;
+}
+
+ .slider label {
+    background-color: none;
+    bottom: 10px;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+    z-index: 10;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: 44.5%;
+}
+
+.slider li:nth-child(1) label {
+    left: 10px;
+}
+
+.slider li:nth-child(2) label {
+    left: 40px;
+}
+
+.slider li:nth-child(3) label {
+    left: 70px;
+}
+
+.slider li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+} 
