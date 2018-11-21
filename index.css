@@ -26,18 +26,22 @@ a {
 	margin: 3rem;
 	margin-right: 1.5rem;
 	margin-bottom: 0.5rem;
+	width: 14%
 }
 
 .divPesquisa {
 	float: left;
 	margin: 3rem;
 	margin-bottom: 0.5rem;
+	width: 40%;
+	margin-right: 0;
 }
 
 .divLogin {
 	float: right;
 	margin: 3rem;
 	margin-bottom: 0.5rem;
+	width: 27%;
 }
 
 .divNav {
@@ -49,7 +53,7 @@ a {
 
 .logo {
 	height: 4rem;
-	width: 12rem;
+	width: 100%;
 }
 
 /* Formatação de formulários de texto*/
@@ -66,15 +70,17 @@ a {
 }
 
 .formFormatPequisa {
-	width: 43.75rem;
+	width: 88%;
 	color: #ff6600;
 	border-bottom: 5px solid #ff6600;
+
 }
 
 .formFormatLogin {
-	width: 9.375rem;
+	width: 35%;
 	color: teal;
-	border-bottom: 5px solid teal; 
+	border-bottom: 5px solid teal;
+	font-size: 13px; 
 }
 
 /* Botões */
@@ -88,9 +94,9 @@ a {
 }
 
 .btnPesquisar {
-	width: 3.75rem;
+	width: 9%;
 	height: 3.438rem;
-	border-image-width: 0.625rem;
+	border-image-width: 5%;
 	border-radius: 5px;
 	font-size: 25px;
 	background-color: #ff6600;
@@ -100,7 +106,7 @@ a {
 
 .btnLogin {
 	height: 3.438rem;
-	width: 6.25rem;
+	width: 20%;
 	font-size: 20px;
 	padding-left: 0.0625rem;
 	padding-right: 0.0625rem;
