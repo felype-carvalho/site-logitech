@@ -6,6 +6,7 @@ body {
 
 a {
 	text-decoration: none;
+	margin: 10px;
 }
 
 .card {
@@ -18,9 +19,10 @@ a {
 
 .card2 {
 	height: 6rem;
+	margin-left: 10px;
 }
 
-/*Divisões do Cabeçario*/
+/*Divisões do Cabeçalho*/
 .divLogo {
 	float: left;
 	margin: 3rem;
@@ -56,7 +58,7 @@ a {
 	width: 100%;
 }
 
-/* Formatação de formulários de texto*/
+/* Formatação de formulários de texto */
 
 .formFormat {
 	background-color: #e6e6e6;
@@ -122,18 +124,19 @@ a {
 	margin: 1rem;
 	border: none;
 	border-radius: 5px;
+	margin-right: 20px;
 }
 
 .navProduto {
-	border-bottom: 0.3125rem solid #00a1e1;
+	border-bottom: 0.3125rem solid white;
 }
 
 .navSolucao {
-	border-bottom: 0.3125rem solid #00cc00;
+	border-bottom: 0.3125rem solid white;	
 }
 
 .navSuporte {
- 	border-bottom: 0.3125rem solid #e6e600;
+ 	border-bottom: 0.3125rem solid white;
 }
 
 /* Formatação dos links do Menu de Navegação */
@@ -143,15 +146,15 @@ a {
 }
 
 .linkFormatProduto {
-	color: #00a1e1;
+	color: white;
 }
 
 .linkFormatSolucao {
-	color: #00cc00;
+	color: white;
 }
 
 .linkFormatSuporte {
-	color: #e6e600;
+	color: white;	
 }
 
 /* Slider */
@@ -214,3 +217,33 @@ a {
     visibility: visible;
     z-index: 10;
 } 
+
+/* Rodapé */
+.card3{
+	height: 9.25rem; 
+}
+
+footer{
+	position: 
+	width: 100%
+}
+
+.imgRodape{
+	margin-left: 10px;
+	padding-top: 20px;
+	height: 60px;
+}
+
+footer h5{
+	margin-bottom: 15px;
+	padding-top: 0;
+}
+.divLinks{
+	position: relative;
+	color: white;
+	float: right;
+	margin-right: 200px;
+}
+.divEmail{
+	float: right;
+}
