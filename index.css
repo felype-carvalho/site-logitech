@@ -19,7 +19,6 @@ a {
 
 .card2 {
 	height: 6rem;
-	margin-left: 10px;
 }
 
 /*Divisões do Cabeçalho*/
@@ -49,6 +48,10 @@ a {
 .divNav {
 	float: left;
 	margin-left: 37.5rem;
+}
+
+.divSlider {
+	position: absolute;
 }
 
 /* Logo */
@@ -85,6 +88,10 @@ a {
 	font-size: 13px; 
 }
 
+.formFormatEmail {
+	height: 35px;
+}
+
 /* Botões */
 .btn {
 	color: white;
@@ -114,6 +121,15 @@ a {
 	padding-right: 0.0625rem;
 	background-color: teal;
 	margin-left: 0px;
+}
+
+.btnEmail {
+	height: 43px;
+	color: white;
+	margin: 0;
+	padding-top: 10px;
+	background-color: red;
+
 }
 
 /* Menu de Navegação */
@@ -216,34 +232,53 @@ a {
     opacity: 1;
     visibility: visible;
     z-index: 10;
-} 
+}
+
+.imgSeta {
+	height: 32px;
+	width: 32px;
+	position: absolute;	
+}
+
+.imgSetaEsquerda {
+	margin-left: 50%;
+}
+
+.imgSetaDireita {
+
+}
 
 /* Rodapé */
 .card3{
-	height: 9.25rem; 
+	width: 100%;
+	position: relative;
+	float: bottom; 
 }
 
-footer{
-	position: 
+/*footer{
 	width: 100%
-}
+}*/
 
 .imgRodape{
 	margin-left: 10px;
 	padding-top: 20px;
-	height: 60px;
+	height: 64px;
 }
 
-footer h5{
-	margin-bottom: 15px;
-	padding-top: 0;
-}
 .divLinks{
-	position: relative;
 	color: white;
 	float: right;
 	margin-right: 200px;
 }
 .divEmail{
+	margin-right: 10px;
 	float: right;
+	height: 50px;
 }
+
+.direitos {
+	color: white;
+	margin-bottom: 0;
+}
+
+.
