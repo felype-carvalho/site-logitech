@@ -1,3 +1,7 @@
+* {
+	overflow: auto;
+}
+
 body {
 	background-color: #4F4F4F; 
 	margin: 0;
@@ -12,13 +16,15 @@ a {
 .card {
 	background-color: #333333;
 	margin: 0;
-	height: 8rem;
+	height: auto;
 	width: 100%;
 	position: relative;
+	overflow: auto;
 }
 
 .card2 {
-	height: 6rem;
+	height: auto;
+	overflow: auto;
 }
 
 /*Divisões do Cabeçalho*/
@@ -27,7 +33,8 @@ a {
 	margin: 3rem;
 	margin-right: 1.5rem;
 	margin-bottom: 0.5rem;
-	width: 14%
+	width: 14%;
+	overflow: auto;
 }
 
 .divPesquisa {
@@ -36,6 +43,7 @@ a {
 	margin-bottom: 0.5rem;
 	width: 40%;
 	margin-right: 0;
+	overflow: auto;
 }
 
 .divLogin {
@@ -43,15 +51,18 @@ a {
 	margin: 3rem;
 	margin-bottom: 0.5rem;
 	width: 27%;
+	overflow: auto;
 }
 
 .divNav {
 	float: left;
 	margin-left: 37.5rem;
+	overflow: auto;
 }
 
 .divSlider {
 	position: absolute;
+	overflow: auto;
 }
 
 /* Logo */
@@ -249,31 +260,30 @@ a {
 }
 
 /* Rodapé */
-.card3{
-	width: 100%;
+.rodape{
 	position: relative;
-	float: bottom; 
+	width: 100%;
+	float: bottom;
+	background-color: #333333;
+	height: auto; 
 }
 
-/*footer{
-	width: 100%
-}*/
-
-.imgRodape{
-	margin-left: 10px;
-	padding-top: 20px;
-	height: 64px;
+.divRedes{
+	float: left;
+	margin: 15px;
+	
 }
 
-.divLinks{
-	color: white;
-	float: right;
-	margin-right: 200px;
+.divLinks {
+	float: center;
+	margin-top: 75px;
+
 }
+
 .divEmail{
-	margin-right: 10px;
 	float: right;
-	height: 50px;
+	margin: 10px;
+	height: auto;
 }
 
 .direitos {
@@ -281,4 +291,8 @@ a {
 	margin-bottom: 0;
 }
 
-.
+.label {
+	color: red;
+	float: left;
+}
+
